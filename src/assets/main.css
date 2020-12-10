@@ -29128,6 +29128,20 @@ video {
   animation: bounce 1s infinite;
 }
 
+.nav-item {
+  cursor: pointer;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-left: 2.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
