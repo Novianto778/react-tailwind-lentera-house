@@ -29137,7 +29137,28 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 300ms
+  transition-duration: 300ms;
+}
+
+.message-shape {
+  -webkit-clip-path: polygon(
+    0 100%,
+    100% 100%,
+    100% 28%,
+    48% 28%,
+    39% 0,
+    29% 28%,
+    0 28%
+  );
+          clip-path: polygon(
+    0 100%,
+    100% 100%,
+    100% 28%,
+    48% 28%,
+    39% 0,
+    29% 28%,
+    0 28%
+  );
 }
 
 @media (min-width: 640px) {
@@ -171889,3 +171910,4 @@ video {
     animation: bounce 1s infinite;
   }
 }
+
